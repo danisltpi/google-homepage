@@ -1,0 +1,28 @@
+body {
+    font-family: "Arial"
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#photo {
+    border-radius: 100%;
+}
+
+#searchbar {
+    background-image: url("https://www.seekclipart.com/clipng/middle/70-709132_search-magnifying-glass-icon-png-grey-clipart.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    border-style: solid;
+}
+
+#searchbar input {
+    border: none;
+    outline: none;
+}
