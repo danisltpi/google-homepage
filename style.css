@@ -5,6 +5,8 @@
 
 body {
     font-family: "Arial", "Sans serif";
+    min-width: 1139px;
+    text-align: center;
 }
 
 a {
@@ -17,12 +19,34 @@ a:hover {
     text-decoration: underline;
 }
 
-#headerleft {
+header div {
+    display: inline-block;
+    margin: 10px;
+}
 
+header div a {
+    margin-left: 11px;
+}
+
+#headerleft {
+    float: left;
+}
+
+#menu {
+    float: right;
+}
+
+#headerright {
+    float: right;
 }
 
 #photo {
     border-radius: 100%;
+}
+
+main {
+    display: inline-block;
+    padding-top: 200px;
 }
 
 #searchbar {
@@ -32,7 +56,7 @@ a:hover {
     border-radius: 50px;
     height: 42px;
     width: 560px;
-    display: block;
+    text-align: initial;
 }
 
 #searchbar:hover, #seachbar:active {
@@ -60,7 +84,8 @@ a:hover {
 }
 
 #buttons {
-    margin: 20px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 #buttons input {
@@ -84,7 +109,7 @@ a:hover {
 }
 
 footer {
-    border: solid 1px #e4e4e4;
+    border-top: solid 1px #e4e4e4;
     color: rgba(0, 0, 0, 0.54);
     font-size: 15px;
     background-color: #f2f2f2;
