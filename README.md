@@ -1,1 +1,1 @@
-Hello world, this is my attempt on recreating the google homepage.
+Recreation of Google homepage, with just css
