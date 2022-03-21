@@ -1,1 +1,1 @@
-Recreation of Google homepage, with just css
+Recreation of Google homepage, with just css (and no flexbox)
